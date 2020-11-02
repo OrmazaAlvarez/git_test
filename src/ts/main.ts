@@ -1,3 +1,3 @@
-setTimeout(()=>{
-    alert("Hola TupeScrit");
-}, 1000);
+/*
+    Este es el cambio que iba hacer
+*/
