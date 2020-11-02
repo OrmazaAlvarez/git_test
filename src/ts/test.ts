@@ -1,3 +1,3 @@
 setTimeout(()=>{
-    console.log("Hola TupeScrit");
+    console.log("Hola TupyScrit!");
 }, 1000);
