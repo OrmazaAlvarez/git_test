@@ -1,0 +1,24 @@
+{
+  "name": "miapp",
+  "version": "1.0.0",
+  "description": "copilacion SASS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "LENIN ORMAZA",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.28.0",
+    "typescript": "^4.0.5"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "gulp-uglify": "^3.0.2"
+  }
+}
