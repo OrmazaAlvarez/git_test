@@ -18,7 +18,7 @@ const distPaths = {
 };
 
 function html() {
-    return src(srcPaths.html+"*.html")
+    return src(srcPaths.html+"*.php")
                .pipe(dest(distPaths.html));
 }
 
@@ -49,7 +49,7 @@ function serveTask() {
     proxy: "http://local.miwebphp.com",
     startPath: "/miapp/dist/html"
   });
-  watch(srcPaths.html+"*.html",html).on("change", browsersync.reload);
+  watch(srcPaths.html+"*.php",html).on("change", browsersync.reload);
   watch(srcPaths.scss+"*.scss",scss);
   watch(srcPaths.ts+"*.ts",ts).on("change", browsersync.reload);
 }
