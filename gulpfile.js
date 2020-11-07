@@ -46,7 +46,7 @@ function ts() {
 function serveTask() {
   browsersync.init({
     logLavel: "info",
-    proxy: "http://local.miwebphp.com:88",
+    proxy: "http://local.miweb.com",
     startPath: "/miapp/dist/html"
   });
   watch(srcPaths.html+"*.php",html).on("change", browsersync.reload);
