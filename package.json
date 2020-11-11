@@ -1,24 +1,27 @@
 {
   "name": "miapp",
   "version": "1.0.0",
-  "description": "copilacion SASS",
-  "main": "index.js",
+  "description": "Ejercicio de una pequeña web app creada usando node.js, sass, gulp, nginx con php, con el fin de explicar el uso de control de verciones con git y como alojarlo en un repositorio en la nube usando una cuenta de GitHub",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "LENIN ORMAZA",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OrmazaAlvarez/git_test.git"
+  },
+  "author": "Lenin Antonio Ormaza Alvarez",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OrmazaAlvarez/git_test/issues"
+  },
+  "homepage": "https://github.com/OrmazaAlvarez/git_test#readme",
   "dependencies": {
-    "sass": "^1.28.0",
+    "sass": "^1.29.0",
     "typescript": "^4.0.5"
   },
   "devDependencies": {
-    "browser-sync": "^2.26.13",
     "gulp": "^4.0.2",
-    "gulp-concat": "^2.6.1",
-    "gulp-sass": "^4.1.0",
-    "gulp-sourcemaps": "^2.6.5",
-    "gulp-typescript": "^6.0.0-alpha.1",
-    "gulp-uglify": "^3.0.2"
+    "gulp-sourcemaps": "^2.6.5"
   }
 }
